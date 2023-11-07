@@ -5,7 +5,7 @@
 
 
 import Foundation
-//Variables and constants
+//Variables and constantss
 let heroName: String = "Pixel"
 let badGuy: String = "Xeros"
 var zenith: String = "Zenith a beautiful, vast digital world currently full of glitches and malstorms everyday"
