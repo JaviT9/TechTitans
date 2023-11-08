@@ -1,14 +1,94 @@
 //
-//  Chapter3.swift
+//  Chapter4.swift
 //  CLIStoryTemplate
 //
 
 import Foundation
 
 func chapterThree() {
-    let name = "your name"
-    print ("hey my name is")
-    The golden chip Was stolen from the mother of all computers. Because of that ,an electromagnetic storm is on the rise to destroy planet Zenith.The Golden chip being restored is the only way to stop the storm. Titans long journey to retrieve the golden chip, chances are slim. He knew only one person that could calm the storm so he can get the golden chip. Techtor, Titan knew of the things Techtor invented. He lived in a cave that contained the ruins of an ancient city . A city that had all power to manipulate the electric currents in the air. Titan knew of all obstacles he had to achieve in order to save planet Zenith. So his first stop was to the eldest techllow tree , deep within the the computer forest. When he approached the techllow tree it was only within matter of seconds the tree up held Titan with its brilliant rays of light and knowledge. Once released from the tree it was an abundance of knowledge and he was ready for his adventure. But before he left, the Techllow tree said to him, your weekness is power , too much of it and it will kill you, it’ll all be for nothing. Titan left and found his old pal the inventor, Techtor. Techtor and titan began their mission.  As they got closer to the electric sea they noticed something. They saw red rising with blue lightning. Its the tech dragon . Titan went heads up with the tech dragon .There was lightning and fire everywhere. Titan was almost down . With Techtor by Titans side  the dragon had no chance. Techtor waved his arms powerfully and lifted is body ,eyes closed. A  strong circle of wind bursted .It made the dragon week. Titan was able to retrieve the golden chip off the dragons back. the dragon then fell into the electric ocean and died, knowing it wasnt the water that killed the dragon. Titan then remembered the Tehllow's words . Weakness is power to much of it and it will kill you.
-
-    //
+    let protragonistname = "Pixel"
+    let protragonistfriend = "Pythos"
+    let power = "Sacred Knowledge"
+    let treasurename = "Greatest Knowledge"
+    let forest = "Mechaninic Forest"
+    let creatures = "Mechanic Creatures"
+    let guardian = "Guardian of Knowledge"
+    
+    
+    print("The Mechanic Forest.")
+    
+    print("Next on his quest, \(protragonistname) and \(protragonistfriend) ventured into the heart of the \(forest).")
+    
+    print("There the trees whispered secrets, and the \(creatures) offered riddles. While \(protragonistname) was in search for The \(treasurename), a profound and elusive wisdom.")
+    print ("As they delved deeper into the \(forest)")
+    print("\(protragonistname) determination and kindness earned himself the trust of the forest dinzens.")
+    
+    
+    let heroistrusted :Bool = true
+    
+    
+    func forestjourney(){
+        if heroistrusted == true{
+            print ("earned himself the trust of the dinzens.")
+            struct dinzen {
+                let D1: String
+                let D2: String
+                let D3: String
+                var dinzen: Int
+                var riddle: Int
+                var numberofriddlesbeingtold: Int?
+                
+                init(D1: String, D2: String, D3: String, dinzen: Int, riddle: Int, numberofriddlesbeingtold: Int? = nil) {
+                    self.D1 = D1
+                    self.D2 = D2
+                    self.D3 = D3
+                    self.dinzen = dinzen
+                    self.riddle = riddle
+                    self.numberofriddlesbeingtold = numberofriddlesbeingtold
+                }
+            }
+            
+            var dinzens = ["D1", "D2", "D3"]
+            var riddles = ["first riddle", "second riddle", "third riddle"]
+           
+            
+            enum riddle {
+                case riddle1
+                case riddle2
+                case riddle3
+                
+            }
+            func story() {
+                //    riddles.shuffle()
+                riddles.shuffle()
+                print("\(dinzens[1]) told the\(riddles[1]).")
+                print("\(dinzens[2]) told the\(riddles[2]).")
+                print("\(dinzens[3]) told the\(riddles[3]).")
+                storyUsingLoop()
+                
+        }
+            
+            story()
+            
+            
+            
+            func storyUsingLoop() {
+                dinzens .shuffle()
+                for index in 1...3 {
+                    print("\(dinzens[index]) told the \(riddles[index]).")
+                }
+            }
+            
+         
+        } else {
+            print ("the")
+        }
+    }
+    print("The \(guardian) bestowed upon \(protragonistname) the \(power), promising him that wisdom is as valuable as any treasure")
+    func mystory1(){
+        print()
+    }
+   
+    
+    //  strucs,
 }
