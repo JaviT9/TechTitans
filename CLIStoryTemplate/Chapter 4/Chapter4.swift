@@ -25,6 +25,7 @@ func myStory() {
     var weapons: Array<String> = ["Sword", "Trident", "Bow", "Staff"]
     print(weapons)
     print("Only one can be used to face the beast, so choose carefully or you'll taste defeat ")
+    weapons.insert("Shield", at: 3)
     print("\(heroName) chooses \(weapons[1])")
     print("Scala releases a giant electric eel.")
     fightDecision()
