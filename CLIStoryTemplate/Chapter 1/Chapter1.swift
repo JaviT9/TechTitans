@@ -47,7 +47,7 @@ func chapterOne() { //functions
         
         // Ask the character whether they want to go with companions with optionals
         print("Do you want to go on this journey alone or with companions? (Type 'alone' or 'with companions'):")
-        
+        //
         if let choice = readLine() {
             if choice.lowercased() == "alone" {//this will read off the following line
                 print("\(protagonist.name) decides to embark on this journey without his friends.")
