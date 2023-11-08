@@ -10,6 +10,10 @@ import Foundation
  Int jj
  Double 
  */
+enum antagonist {
+    case dragon
+}
+    
 func caveDecision(choiceOfCave : Bool) {
     if choiceOfCave == true {
         print("Pixel Goes Inside Cave")
@@ -23,13 +27,13 @@ func chapterTwo(){
     var daysPast:Int = 0
     
     
-  
+    let dragon = antagonist.dragon
     
     print("What is you name?\t", terminator: "")
      mainCharacterName = readLine() ?? ""
 
     print("hey my name is \(mainCharacterName)")
-   print ("Pixel was in search of the golden flashdrive, that was guarded by the firery dragon. Pixel really needed this flashdrive so he could unlock the central code to all coding. This flashdrive had alluded Pixel was so long for many years, after doing his research Pixel finally discovered where the dragons lair was located, now all he had to do was come up with a plan how to get there, when to arrive, and also how to get inside. Pixel Just needed to figure out what time did the dragon leave it's lair to feast, going inside once the dragon left would make this mission way more easier.Pixel waited, and waited for the dragon to leave. Once the dragon finally left Pixel decicded to finally go inside, once inside he started to search for the golden chip. Pixel searched and searched and could not find the flashdrive inside of the cave, his time was running out and he had to make a quikc decision before the dragon came back , so Pixel decided to leave the cave and retrun again the next night.")
+   print ("Pixel was in search of the golden flashdrive, that was guarded by the firery \(dragon). Pixel really needed this flashdrive so he could unlock the central code to all coding. This flashdrive had alluded Pixel was so long for many years, after doing his research Pixel finally discovered where the \(dragon) lair was located, now all he had to do was come up with a plan how to get there, when to arrive, and also how to get inside. Pixel Just needed to figure out what time did the \(dragon) leave it's lair to feast, going inside once the \(dragon) left would make this mission way more easier.Pixel waited, and waited for the \(dragon) to leave. Once the \(dragon) finally left Pixel decicded to finally go inside, once inside he started to search for the golden chip. Pixel searched and searched and could not find the flashdrive inside of the cave, his time was running out and he had to make a quikc decision before the \(dragon) came back , so Pixel decided to leave the cave and retrun again the next night.")
 
     
 //    daysPast += 1
