@@ -55,7 +55,7 @@ func myStory2() {
         print(" \(heroName) dodges and stops. Watching and waiting for the Eels next move")
         
         numberOfRepeasts += 1
-        if numberOfRepeasts > 5 {
+        if numberOfRepeasts > 3 {
             eelIsAttacking = false
             
         }
@@ -72,7 +72,6 @@ func myStory3() {
          var core: String
      }
      let myBroom = Thunderclap(year: 5000, make: "Merxin", color: "Silver", core: "Cyber Dragon")
-     print(myBroom)
     print("Finally \(heroName) and pythos has finished the lengthy quest and is ready to head back to \(zenith)")
     print("\(heroName) opens the bag the Sage has sent him and inside is a hoverboard, not just any hover board its a \(myBroom)")
     print("One of the fastest hoverboards known to the Zenith with this, getting home should be a breeze")
